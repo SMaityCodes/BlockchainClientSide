@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Contract Interaction</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.0.3/dist/web3.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Storage Contract</h1>
+    
+    <button onclick="connectWallet()">Connect MetaMask</button>
+    <p id="wallet">Not Connected</p>
+
+    <h2>Store a Number</h2>
+    <input type="number" id="storeInput" placeholder="Enter a number">
+    <button onclick="storeValue()">SetValue</button>
+
+    <h2>Increase the Stored Number</h2>
+    <button onclick="increaseValue()">Increase</button>
+    
+    <h2>Retrieve Stored Number</h2>
+    <button onclick="retrieveValue()">GetValue</button>
+    <p id="retrievedValue">Stored Number: --</p>
+</body>
+</html>
+

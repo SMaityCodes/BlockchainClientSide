@@ -25,5 +25,7 @@ From where to find the Contract ABI in Remix IDE?
 
 go to the “Solidity Compiler” tab -> ABI (at the bottom of left panel)
 
+Note that the contract ABI remains the same if you do not change the solidity program. However the contract Address is for a specific deployment of the contract.
+
 update the above two inside "script.js"
 

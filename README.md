@@ -11,7 +11,7 @@ Create  New Wallet:-
 
 Connect your wallet to Sepolia: Select a Network -> Show test networks -> Sepolia
 
-Buy Some Sepolia ETH in your wallet (can be obtained from a faucet  https://sepoliafaucet.com)
+Buy Some Sepolia ETH in your wallet (can be obtained from a  faucet  [https://faucets.chain.link/sepolia](https://cloud.google.com/application/web3/faucet/ethereum/sepolia))
 
 In Remix -> "Deploy & run trunsactions"  -> "Environment" -> "Inject Provider - Metamask" ->
 

@@ -19,7 +19,7 @@ copy the "contract Address" and "contract ABI"
 
 From where to find the Contract Address in Remix IDE?
 
-Under Deployed Contracts -> you can see something STORAGE AT ... (copy address)
+Under Deployed Contracts -> you can see something STORAGE AT ... (copy address) (note that the address must be places inside double-quote)
 
 From where to find the Contract ABI in Remix IDE?
 

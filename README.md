@@ -4,6 +4,7 @@ A basic demo on how to call solidity smart contract from frontend javascript
 
 compile and deploy and test the smart contract "1_storage.sol" using Remix IDE  https://remix.ethereum.org 
 
+In Sepolia (or in default Remix VM(Prague))
 
 install metamask extension for your browser.
 

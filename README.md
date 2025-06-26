@@ -13,9 +13,17 @@ Connect your wallet to Sepolia: Select a Network -> Show test networks -> Sepoli
 
 Buy Some Sepolia ETH in your wallet (can be obtained from a  faucet  [https://faucets.chain.link/sepolia](https://cloud.google.com/application/web3/faucet/ethereum/sepolia))
 
-In Remix -> "Deploy & run trunsactions"  -> "Environment" -> "Inject Provider - Metamask" ->
+In Remix -> "Deploy & run trunsactions"  -> "Environment" -> "Inject Provider - Metamask" -> "Deploy" (it will deduct around 0.003 ETH)
 
 copy the "contract Address" and "contract ABI"
 
-update it inside "script.js"
+From where to find the Contract Address in Remix IDE?
+
+Under Deployed Contracts -> you can see something STORAGE AT ... (copy address)
+
+From where to find the Contract ABI in Remix IDE?
+
+go to the “Solidity Compiler” tab -> ABI (at the bottom of left panel)
+
+update the above two inside "script.js"
 
